@@ -1,0 +1,209 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #eef2f5;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-image: url('images/bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    
+   
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+
+.login-container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 550px;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.brand-section {
+    background: url('images/Dasboard.jpeg');
+    
+    
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+    padding: 5vw 20px; 
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.logo-box {
+    background-color: #660000;
+    padding: 10px 25px;
+    border-radius: 2px;
+    margin-bottom: 25px;
+    border-bottom: 4px solid #ffffff; 
+}
+
+.logo-main {
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.logo-sub {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.tagline {
+    font-size: 0.75rem;
+    font-style: italic;
+    margin-top: 2px;
+    color: #fff;
+}
+
+.brand-section h1 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.brand-section .subtitle {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+
+.form-section {
+    padding: 40px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.form-content {
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+}
+
+
+.icon-container {
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.grad-cap-icon {
+    width: 100px;
+    height: 100px;
+    color: #000000;
+}
+
+.form-section h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #4a4a4a;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+}
+
+.btn-login {
+    width: 100%;
+    background-color: #800000;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-bottom: 25px;
+}
+
+.btn-login:hover {
+    background-color: #660000;
+}
+
+.help-text {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.help-text a {
+    color: #1253a4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-text {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+.footer-text .vendor {
+    color: #a82654;
+    font-weight: bold;
+}
+
+
+@media (min-width: 650px) {
+    .login-container {
+        flex-direction: row; 
+    }
+
+    .brand-section, .form-section {
+        flex: 1; 
+        padding: 60px 40px;
+    }
+
+    .icon-container {
+        display: flex; 
+    }
+}
+
+.icon-container {
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+
+.grad-cap-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain; 
+}
+
+
+@media (min-width: 650px) {
+    .icon-container {
+        display: flex; 
+    }
+}

@@ -59,12 +59,12 @@ h4 {
 
 .portal-banner {
     width: 100%;
-    min-height: 300px; 
+    min-height: 300px; /* Mobile view */
     background:
         linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-        url('images/Newbg.jpeg');
+        url('images/lgbg.jpeg');
     background-size: cover;
-    background-position: center 20%; 
+    background-position: center 20%; /* Keeps faces in frame */
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -74,17 +74,25 @@ h4 {
     transition: min-height 0.3s ease;
 }
 
-
+/* Tablet View */
 @media (min-width: 768px) {
     .portal-banner {
-        min-height: 450px; 
+        min-height: 450px;
     }
 }
 
-
+/* Laptop View */
 @media (min-width: 1024px) {
     .portal-banner {
-        min-height: 550px; 
+        min-height: 550px;
+    }
+}
+
+/* Ultra-Wide & 4K Displays (2560px and up) */
+@media (min-width: 2560px) {
+    .portal-banner {
+        min-height: 700px; /* Scales the height up proportionally for massive screens */
+        background-position: center 15%; /* Refines vertical alignment for extreme widths */
     }
 }
 

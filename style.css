@@ -71,7 +71,7 @@ body {
     font-size: 2.5rem;
     font-weight: 1000;
     letter-spacing: 1px;
-    color: black;
+    color: #800000;
 }
 
 .logo-sub {
@@ -83,7 +83,7 @@ body {
     font-size: 1.0rem;
     font-style: italic;
     margin-top: 2px;
-    color: #fff;
+    color: #800000;
 }
 
 .brand-section h1 {

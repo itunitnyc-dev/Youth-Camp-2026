@@ -64,16 +64,16 @@ body {
     padding: 10px 25px;
     border-radius: 2px;
     margin-bottom: 25px;
-    border-bottom: 4px solid #ffffff; 
-    outline-color: #ffffff;
-    outline: 3px solid #ffffff;
+    border-bottom: 4px solid #0d1117; 
+    outline-color: #0d1117;
+    outline: 3px solid #0d1117;
 }
 
 .logo-main {
     font-size: 2.5rem;
     font-weight: 1500;
     letter-spacing: 1px;
-    color: #ffffff;
+    color: #0d1117;
 }
 
 .logo-sub {
@@ -85,7 +85,7 @@ body {
     font-size: 2.0rem;
     font-style: italic;
     margin-top: 2px;
-    color: #ffffff;
+    color: #0d1117;
 }
 
 .brand-section h1 {

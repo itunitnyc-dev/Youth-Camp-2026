@@ -65,6 +65,7 @@ body {
     border-radius: 2px;
     margin-bottom: 25px;
     border-bottom: 4px solid #ffffff; 
+    outline-color: #ffffff;
 }
 
 .logo-main {

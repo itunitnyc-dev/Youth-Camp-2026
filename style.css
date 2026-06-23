@@ -60,20 +60,20 @@ body {
 }
 
 .logo-box {
-    background-color: #ffffff;
+    background-color: none;
     padding: 10px 25px;
     border-radius: 2px;
     margin-bottom: 25px;
     border-bottom: 4px solid #ffffff; 
     outline-color: #ffffff;
-    outline: 3px solid #ffffff;
+    outline: 2px solid #ffffff;
 }
 
 .logo-main {
     font-size: 2.5rem;
     font-weight: 1500;
     letter-spacing: 1px;
-    color: none;
+    color: #800000;
 }
 
 .logo-sub {
@@ -85,7 +85,7 @@ body {
     font-size: 1.0rem;
     font-style: italic;
     margin-top: 2px;
-    color: #ffffff;
+    color: #800000;
 }
 
 .brand-section h1 {

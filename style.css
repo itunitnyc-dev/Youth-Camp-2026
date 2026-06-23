@@ -37,7 +37,7 @@ body {
 
 
 .brand-section {
-    background: url('images/Dashboard2.png');
+    background: url('images/Dashboard.png');
     
     
     background-size: cover;
@@ -71,9 +71,9 @@ body {
 
 .logo-main {
     font-size: 2.5rem;
-    font-weight: 1000;
+    font-weight: 1500;
     letter-spacing: 1px;
-    color: #800000;
+    color: #ffffff;
 }
 
 .logo-sub {
@@ -82,10 +82,10 @@ body {
 }
 
 .tagline {
-    font-size: 1.0rem;
+    font-size: 2.0rem;
     font-style: italic;
     margin-top: 2px;
-    color: #800000;
+    color: #ffffff;
 }
 
 .brand-section h1 {

@@ -15,6 +15,13 @@ body {
 h4 {
    color: #800000;
 }
+.badge {
+    background-color: red;
+    color: #ffffff;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
 
 .portal-wrapper {
     width: 100%;
